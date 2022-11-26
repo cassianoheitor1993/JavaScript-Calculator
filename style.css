@@ -1,0 +1,258 @@
+:root {
+    --firstColor: rgb(255, 255, 255);
+    --secondColor: rgb(8, 0, 80);
+}
+
+* {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    box-sizing: border-box;
+    font: optional;
+}
+
+h1 {
+    background-color: var(--secondColor);
+    color: white;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px !important;
+}
+
+.main-content {
+    background-color: var(--firstColor);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.centered-content {
+    padding: 10px;
+}
+
+.calculator-btn {
+    width: 90px;
+}
+
+.centered-content {
+    width: 100%;
+}
+
+.calculator {
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.result {
+    border: 2px solid rgb(122, 121, 121);
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.alertMsg {
+    font-size: 1.5em;
+    color: red;
+    padding: 10px;
+    text-align: right;
+}
+
+.result-operation {
+    font-size: 20px;
+    background-color: white;
+}
+
+.result-enter {
+    font-size: 55px;
+    align-items: baseline;
+    bottom: 0;
+    background-color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: auto;
+}
+
+.buttons>*:nth-child(1n):nth-last-of-type(1) {
+    grid-column: span 2;
+}
+
+.buttons [class^="btn"] {
+    width: 100%;
+    height: 65px;
+    padding: 5px;
+    font-size: 2em;
+    border: 2px solid rgb(122, 121, 121);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--secondColor);
+    color: white;
+    padding: 20px;
+    width: calc(100vw);
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer-copy {
+    width: 100%;
+    text-align: center;
+}
+
+#footer-date-time {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-1 {
+    background-color: buttonface;
+}
+
+.btn-1.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-2 {
+    background-color: buttonface;
+}
+
+.btn-2.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-3 {
+    background-color: buttonface;
+}
+
+.btn-3.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-4 {
+    background-color: buttonface;
+}
+
+.btn-4.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-5 {
+    background-color: buttonface;
+}
+
+.btn-5.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-6 {
+    background-color: buttonface;
+}
+
+.btn-6.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-7 {
+    background-color: buttonface;
+}
+
+.btn-7.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-8 {
+    background-color: buttonface;
+}
+
+.btn-8.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-9 {
+    background-color: buttonface;
+}
+
+.btn-9.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-0 {
+    background-color: buttonface;
+}
+
+.btn-0.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-plus {
+    background-color: buttonface;
+}
+
+.btn-plus.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-minus {
+    background-color: buttonface;
+}
+
+.btn-minus.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-division {
+    background-color: buttonface;
+}
+
+.btn-division.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-multiply {
+    background-color: buttonface;
+}
+
+.btn-multiply.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-equals {
+    background-color: buttonface;
+}
+
+.btn-equals.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-minus-plus {
+    background-color: buttonface;
+}
+
+.btn-minus-plus.blue {
+    background-color: rgb(0, 204, 255);
+}
+
+.btn-dot {
+    background-color: buttonface;
+}
+
+.btn-dot.blue {
+    background-color: rgb(0, 204, 255);
+}
