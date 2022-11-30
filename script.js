@@ -371,6 +371,6 @@ function getDateTimeJs() {
     let time = date.getHours() + ":" + date.getMinutes();
 
     currentDate = `${day}-${month}-${year} ${time}`;
-    document.getElementById("footer-copy").innerHTML = "&copy; Cassiano Medeiros";
+    document.getElementById("footer-copy").innerHTML = "&copy; Cassiano Medeiros <br>";
     document.getElementById("footer-date-time").innerHTML = currentDate;
 }
